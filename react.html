@@ -1,0 +1,71 @@
+
+<!Doctype html>
+<html>
+  <head>
+
+    <meta charset="UTF-8" />
+    <title></title>
+  </head>
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body{
+
+ background-color:#393939;;
+}
+h1{
+  color: #069C54;
+  font-family: 'Poppins', sans-serif;
+}
+p{
+  color: aliceblue;
+}
+</style>
+  <body>
+<center>
+
+  
+    <h1 class="section-title about__initial" style="font-size:3em">These are our top 3 speciality dishes. <br>Like if you can't wait to try them!<br></h1>
+    
+    
+
+    <p style="font-size:2em" >
+      Dish 1:Chicken Tacos
+<br>
+<img src="assets\img\plate9.jpg"height=400>
+
+      <!-- We will put our React component inside this div. -->
+      <div class="like_button_container" data-commentid="1"></div>
+    
+<br><br>
+<p style="font-size:2em">
+<br>
+
+     Dish 2: Spaghetti Alio Olio
+<br>
+<img src="assets\img\plate8.jpg"height="500" width="500" >
+      <!-- We will put our React component inside this div. -->
+      <div class="like_button_container" data-commentid="2"></div>
+    </p>
+
+    <p style="font-size:2em">
+<br><br>
+      Dish 3: Thai curry rice
+<br>
+<img src="assets\img\plate10.jpg"height="400" width="450">
+      <!-- We will put our React component inside this div. -->
+      <div class="like_button_container" data-commentid="3"></div>
+    </p>
+
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- Load our React component. -->
+    <script src="like_button.js"></script>
+</center>
+
+  </body>
+</html>
